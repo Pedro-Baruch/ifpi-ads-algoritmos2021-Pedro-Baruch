@@ -1,6 +1,6 @@
 // Q5 - Leia um número inteiro (3 dígitos), calcule e escreva a soma de seus elementos (C + D + U).
 
-const input = require('prompt-sync')()
+const input = require('prompt-sync')();
 
 // Entrada
 const numero_inteiro = input('Coloque um numero inteiro com 3 digitos: ')
