@@ -18,24 +18,17 @@ var nota10 = 10
 var nota5 = 5
 var nota1 = 1
 
-if (valor_saque >= 0 && valor_saque <= 999999) {
-    if(nota50 > 0) {
-        nota50 = valor_saque / 50
-        valor_saque = valor_saque % 50
-    }
-    if(nota10 > 0) {
-        nota10 = valor_saque / 10
-        valor_saque = valor_saque % 10
-    }
-    if(nota5 > 0) {
-        nota5 = valor_saque / 5
-        valor_saque = valor_saque % 5
-    }
-    if(nota1 > 0) {
-        nota1 = valor_saque / 1
-        valor_saque = valor_saque % 1
-    }
-}
-
+nota50 = valor_saque / 50
+valor_saque = valor_saque % 50
+  
+nota10 = valor_saque / 10
+valor_saque = valor_saque % 10
+  
+nota5 = valor_saque / 5
+valor_saque = valor_saque % 5
+   
+nota1 = valor_saque / 1
+valor_saque = valor_saque % 1
+   
 // Saída
 console.log(Math.floor(nota50),'notas de 50 reais,',Math.floor(nota10),'notas de 10 reais,',Math.floor(nota5),'notas de 5 reais,',Math.floor(nota1),'notas de 1 real.')
