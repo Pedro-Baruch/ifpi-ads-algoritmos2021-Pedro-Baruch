@@ -3,8 +3,8 @@
 const input = require('prompt-sync')()
 
 // Entrada
-const numero_1 = Number(input('Primeiro numero: '));
-const numero_2 = Number(input('Segundo numero: '));
+const numero_1 = Number(input('Primeiro numero: '))
+const numero_2 = Number(input('Segundo numero: '))
 
 // Processamento
 const soma = numero_1 + numero_2
