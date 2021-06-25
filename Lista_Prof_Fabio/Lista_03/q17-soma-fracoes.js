@@ -3,9 +3,14 @@ const input = require('prompt-sync')()
 function main(){
 
     // Entrada
-    let num = Number(input('N = '))
+    const num = Number(input('N = '))
 
     // Processamento
+    valor_de_s(num)
+}
+
+function valor_de_s(num){
+
     let fracao = 0
     let soma = 0
 
@@ -15,7 +20,7 @@ function main(){
     }
 
     // Saída
-    console.log(`S = ${soma.toFixed(2)}`)
+    console.log(`A soma é igual a ${soma}`)
 }
 
 main()
