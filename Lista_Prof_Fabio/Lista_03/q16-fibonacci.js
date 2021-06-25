@@ -7,9 +7,19 @@ function main(){
     let num = Number(input('N = '))
     
     // Processamento
+    for(let i = 0; i <=num; i++){
+        if(num <= 1){
+            let num = Number(input('N = '))
+        }else{
+            break
+        }
+    
+    }
+    
     fibonacci(num)
 }
 
+// Processamento
 function fibonacci(num){
     let termo1 = 0
     let termo2 = 1
@@ -17,8 +27,9 @@ function fibonacci(num){
 
     console.log(termo1)
     console.log(termo2)
+    
     for(let i = 3; i <= num; i++){
-        let termo3 = termo1 + termo2
+        termo3 = termo1 + termo2
         console.log(termo3)
         termo1 = termo2
         termo2 = termo3
