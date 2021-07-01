@@ -7,6 +7,10 @@ function main(){
     const tempo = input('')
 
     // Processamento
+    time(tempo)
+}
+
+function time(tempo){
     let quebra = tempo.split(':')
     let hora = quebra[0]
     let minuto = quebra[1]
