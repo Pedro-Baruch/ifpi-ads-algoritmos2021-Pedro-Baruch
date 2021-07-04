@@ -64,6 +64,7 @@ function descriptografando(frase,vogais_separadas){
     }
 
     console.log(quebra_crip,palavra)
+    console.log(palavra)
 
 }
 
