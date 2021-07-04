@@ -52,7 +52,7 @@ function descriptografando(frase,vogais_separadas){
     console.log(posicao,'//',letra)
 
     let altura = quebra.length + frase.length
-    let quebra_crip = 'cu'
+    let quebra_crip = 'não deu'
     let palavra
 
     for(let y = 0; y < altura; y++){
