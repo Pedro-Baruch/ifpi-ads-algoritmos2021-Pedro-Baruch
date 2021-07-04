@@ -16,7 +16,7 @@ function main(){
 }
 
 function escrevendo_mes2(data){
-    let meses = [0,'Jameiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+    let meses = [0,'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
     let quebra = data.split('/')
     let mes = Number(quebra[1])
     let mes_extenso = meses[mes]
