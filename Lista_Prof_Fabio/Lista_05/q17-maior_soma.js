@@ -17,18 +17,52 @@ function main(){
     }
 
     // Processamento
-    let maior_s = 0
-    let menor_s = 0
-    let vetor = Array(ordem)
+    let maiors = maiorSoma(matriz)
+    let menors = menorSoma(matriz)
 
-    for(let i = 0; i < ordem; i++){
-        vetor = matriz[i]
+    // Saída
+    console.table(matriz)
+    console.log(`Maior soma ${maiors[1]} na linha ${maiors[0]}`)
+    console.log(`Menor soma ${menors[1]} na linha ${menors[0]}`)
+}
+
+// Processamento
+function maiorSoma(matriz){
+
+    let somaLinha = [0, 0]
+    let soma = 0
+
+    for(let i = 0; i < matriz.length; i++){
+        for(let j = 0; j < matriz.length; j++){
+            soma = soma + matriz[i][j]  
+        }
+        if(soma >= somaLinha[1]){
+            somaLinha[1] = soma
+            somaLinha[0] = i
+        }
+        soma = 0
     }
 
+    return somaLinha
+}
 
-    console.log(vetor)
-    console.table(matriz)
+function menorSoma(matriz){
 
+    let somaLinha = [0, 999999999999]
+    let soma = 0
+
+    for(let i = 0; i < matriz.length; i++){
+        for(let j = 0; j < matriz.length; j++){
+            soma = soma + matriz[i][j]
+        }
+        if(soma <= somaLinha[1]){
+            somaLinha[1] = soma
+            somaLinha[0] = i
+        }
+        soma = 0
+    }
+
+    return somaLinha
 }
 
 main()
