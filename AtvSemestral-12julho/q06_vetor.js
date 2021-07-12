@@ -1,4 +1,4 @@
-const { media, maior, menor, positivos, negativos, repetidos } = require('./q06_utils')
+const { maior, menor, positivos, negativos, repetidos, media } = require('./q06_utils')
 
 const input = require('prompt-sync')()
 
@@ -22,7 +22,7 @@ function main(){
     let repete = repetidos(vetor)
 
     // Saída
-    console.log(`Média dos valolres = ${menor_valor}`)
+    console.log(`Média dos valolres = ${media_valor}`)
     console.log(`Maior valor: ${maior_valor} // Menor valor: ${menor_valor}`)
     console.log(`Temos ${positivo} números positivos e ${negativo} números negativos`)
     if(repete === true){
