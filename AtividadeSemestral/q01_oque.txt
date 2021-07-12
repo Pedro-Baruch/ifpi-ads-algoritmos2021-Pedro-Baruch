@@ -8,6 +8,7 @@ a. Pensamento Computacional
 b. Algoritmo
     Algoritmos são descrições de processos e podem ser definidos usando diferentes tipos de linguagens
 c. Programação
-
+    É Descrever um algoritmo em uma linguagem que uma máquina é capaz de entender, como javascript, python, c++ e etc
 d. Modularização com uso de Funções
-    
+    É uma forma de melhorar a organização e deixar o código menor, utilizando o recurso de exportar uma função de um arquivo
+    para outro.
