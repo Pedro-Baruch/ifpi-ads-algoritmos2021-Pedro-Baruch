@@ -10,8 +10,9 @@ function main(){
     formaPagamento(valor_compra,dia_receber)
 }
 
+// Difinir as forma de pagamento e caso sem no credito perguntar para o usuário a quantidade de parcelas
 function formaPagamento(valor,dia){
-     
+    
     let forma_pagamento = Number(input('Qual a foram de pagamento? (1=Crédito,2=A vista) '))
     while(forma_pagamento > 0){
         if(forma_pagamento === 1){
@@ -28,7 +29,7 @@ function formaPagamento(valor,dia){
     }
 }
 
-// Processamento
+// Calculo das taxas e valor liquid
 function pagarVista(valor,dia){
     let taxa = 0
     let valor_liquido = 0
@@ -53,7 +54,6 @@ function pagarVista(valor,dia){
     console.log(`Quantidade de dias para receber ${dia}`)
 }
 
-// Processamento
 function pagarCredito(valor,dia,parcelas){
     let taxa = 0
     let valor_liquido = 0

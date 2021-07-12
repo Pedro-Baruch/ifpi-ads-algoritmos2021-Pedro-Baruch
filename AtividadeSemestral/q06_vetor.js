@@ -1,4 +1,4 @@
-const { media, maior, menor, positivos, negativos, repetidos } = require('./q06-utilis')
+const { media, maior, menor, positivos, negativos, repetidos } = require('./q06_utils')
 
 const input = require('prompt-sync')()
 
