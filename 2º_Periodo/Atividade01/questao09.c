@@ -15,9 +15,13 @@ main()
 
     // Processamento
 
-    if(mes <= 12){
-    
+    if(dia > 0 && dia <= 31 && mes > 0 && mes <= 12){ 
+        if(mes == 2 && dia <= 28){
+            printf("Data valida!");
+        }else{
+            printf("Data invalida!");
+        }
     }else{
-        printf("Data invalida");
+        printf("Data invalida!");
     }
 }
