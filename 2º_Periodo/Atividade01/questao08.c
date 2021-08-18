@@ -16,6 +16,8 @@ main()
     if(unidade == dezena){
         printf("Os algarismos sao iguais!");
     }else{
-        printf("Os algarismos sao diferentes!");
+        printf("Os algarismos sao diferentes!\n");
     }
+
+    system("PAUSE");
 }

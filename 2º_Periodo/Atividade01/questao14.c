@@ -12,14 +12,16 @@ main()
 
     switch (sexo){
         case 'M': {
-            printf("Masculino!");
+            printf("Masculino!\n");
             break;
         } case 'F': {
-            printf("Feminino!");
+            printf("Feminino!\n");
             break;
         } default :{
-            printf("Invalido!");
+            printf("Invalido!\n");
             break;
         }
     }
+
+    system("PAUSE");
 }

@@ -20,28 +20,28 @@ main()
     switch (operacao){
         case 1: {
             resultado = valor1 + valor2;
-            printf("Resultado da soma: %i", resultado);
+            printf("Resultado da soma: %i\n", resultado);
             break;
         }
         case 2: {
             resultado = valor1 - valor2;
-            printf("Resultado da subtracao: %i", resultado);
+            printf("Resultado da subtracao: %i\n", resultado);
             break;
         }
         case 3: {
             resultado = valor1 * valor2;
-            printf("Resultado da multiplicacao: %i", resultado);
+            printf("Resultado da multiplicacao: %i\n", resultado);
             break;
         }
         case 4: {
             resultado = valor1 / valor2;
-            printf("Resultado da divisao: %i", resultado);
+            printf("Resultado da divisao: %i\n", resultado);
             break;
         }
         default: {
-            printf("operacao invalida");
+            printf("operacao invalida\n");
         }
     }
 
-    
+    system("PAUSE");
 }

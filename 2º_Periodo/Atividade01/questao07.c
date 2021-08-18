@@ -20,7 +20,8 @@ main()
     }else if(num2 > num1 && num2 > num3){
         printf("O numero 2 eh o maior com valor: %f",num2);
     }else if(num3 > num2 && num3 > num1){
-        printf("O numero 3 eh o maior com valor: %f",num3);
+        printf("O numero 3 eh o maior com valor: %0.2f\n",num3);
     }
-    
+
+    system("PAUSE"); 
 }

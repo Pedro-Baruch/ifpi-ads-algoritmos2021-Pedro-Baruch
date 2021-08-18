@@ -17,5 +17,7 @@ main()
     soma = unidade + dezena + centena;
 
     // Saída
-    printf("A soma dos numeros eh igual a: %i", soma);
+    printf("A soma dos numeros eh igual a %i\n", soma);
+
+    system("PAUSE");
 }

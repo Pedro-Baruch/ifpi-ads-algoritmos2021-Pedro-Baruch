@@ -12,5 +12,7 @@ main()
     ms = kmh * 3.6;
 
     // Saída
-    printf("Velocidade em m/s: %0.2f", ms);
+    printf("Velocidade em m/s: %0.2f\n", ms);
+
+    system("PAUSE");
 }

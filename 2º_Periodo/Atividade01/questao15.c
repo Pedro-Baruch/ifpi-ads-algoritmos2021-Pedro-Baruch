@@ -12,49 +12,50 @@ main()
 
     switch (letra){
         case 'a': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'e': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'i': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'o': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'u': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'A': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'E': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'I': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'O': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         case 'U': {
-            printf("Vogal!");
+            printf("Vogal!\n");
             break;
         }
         default : {
-            printf("Consoante!");
+            printf("Consoante!\n");
             break;
         }
     }
-    
+
+    system("PAUSE");
 }

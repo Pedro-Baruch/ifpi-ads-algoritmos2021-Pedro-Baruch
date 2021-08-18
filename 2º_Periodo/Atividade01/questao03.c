@@ -15,5 +15,7 @@ main()
     real = dolar * c_dolar;
 
     // Saída
-    printf("O valor em reais e: %0.0f", real);
+    printf("O valor em reais e: %0.0f\n", real);
+
+    system("PAUSE");
 }

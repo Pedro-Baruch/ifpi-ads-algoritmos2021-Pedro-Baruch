@@ -16,7 +16,7 @@ main()
     media = (nota1 + nota2) / 2;
 
     if(media >= 7){
-        printf("Aprovado!");
+        printf("Aprovado!\n");
     }else{
         printf("O aluno deve fazer prova final!\n");
         printf("Nota prova final: ");
@@ -25,9 +25,11 @@ main()
         media_final = (media + nota_final) / 2;
 
         if(media_final >= 6){
-            printf("Aprovado!");
+            printf("Aprovado!\n");
         }else{
-            printf("Reprovado!");
+            printf("Reprovado!\n");
         }
     }
+
+    system("PAUSE");
 }

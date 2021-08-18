@@ -12,20 +12,22 @@ main ()
     
     switch (turno){
         case 'M':{
-            printf("Matutino.");
+            printf("Matutino.\n");
             break;
         }
         case 'V':{
-            printf("Vespertino.");
+            printf("Vespertino.\n");
             break;
         }
         case 'N':{
-            printf("Noturno.");
+            printf("Noturno.\n");
             break;
         }
         default:{
-            printf("Valor invalido!");
+            printf("Valor invalido!\n");
             break;
         }
     }
+
+    system("PAUSE");
 }

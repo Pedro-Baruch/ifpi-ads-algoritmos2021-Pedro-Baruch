@@ -9,8 +9,10 @@ main()
     scanf("%f", &ms);
 
     // Processamento
-    kmh = ms * 3.6;
+    kmh = ms / 3.6;
 
     // Saída
-    printf("O valor em km/h sera de %0.0f", kmh);
+    printf("O valor em km/h sera de %0.0f\n", kmh);
+
+    system("PAUSE");
 }

@@ -18,6 +18,8 @@ main()
         printf("Maior: num1 = %0.0f\nMenor: num2 = %0.0f", num1, num2);
     }else
     {
-        printf("Maior: num2 = %0.0f\nMenor: num1 = %0.0f", num2, num1);
+        printf("Maior: num2 = %0.0f\nMenor: num1 = %0.0f\n", num2, num1);
     }
+
+    system("PAUSE");
 }

@@ -23,23 +23,24 @@ main()
     // Processamento e Saída
     
     if(ano1 > ano2){
-        printf("Primeira data eh mais recente!");
+        printf("Primeira data eh mais recente!\n");
     }else if(ano2 > ano1){
-        printf("Segunda data eh mais recente!");
+        printf("Segunda data eh mais recente!\n");
     }else if(ano1 == ano2){
         if(mes1 > mes2){
-            printf("Primeira data eh mais recente!");
+            printf("Primeira data eh mais recente!\n");
         }else if(mes2 > mes1){
-            printf("Segunda data eh mais recente!");
+            printf("Segunda data eh mais recente!\n");
         }else if(mes1 == mes2){
             if(dia1 > dia2){
-                printf("Primeira data eh mais recente!");
+                printf("Primeira data eh mais recente!\n");
             }else if(dia2 > dia1){
-                printf("Segunda data eh mais recente!");
+                printf("Segunda data eh mais recente!\n");
             }else if(dia1 == dia2){
-                printf("As datas são iguais!");
+                printf("As datas são iguais!\n");
             }
         }
     }
 
+    system("PAUSE");
 }

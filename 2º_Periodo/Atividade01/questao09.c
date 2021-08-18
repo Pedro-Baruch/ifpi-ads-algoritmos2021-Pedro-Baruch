@@ -15,13 +15,13 @@ main()
 
     // Processamento
 
-    if(dia > 0 && dia <= 31 && mes > 0 && mes <= 12){ 
-        if(mes == 2 && dia <= 28){
-            printf("Data valida!");
-        }else{
-            printf("Data invalida!");
-        }
+    if(mes == 2 && dia > 0 && dia <= 28){
+        printf("Data valida!\n");
+    }else if(mes > 0 && mes <= 12 && dia > 0 && dia <= 31){
+        printf("Data valida!\n");
     }else{
-        printf("Data invalida!");
+        printf("Data invalida!\n");
     }
+
+    system("PAUSE");
 }

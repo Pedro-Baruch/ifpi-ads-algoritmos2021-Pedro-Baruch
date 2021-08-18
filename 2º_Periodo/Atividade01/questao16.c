@@ -16,10 +16,12 @@ main ()
     // Processamento
 
     if(preco1 < preco2 && preco1 < preco3){
-        printf("Compre o primeiro produto.");
+        printf("Compre o primeiro produto.\n");
     }else if(preco2 < preco3 && preco2 < preco1){
-        printf("Compre o segundo produto.");
+        printf("Compre o segundo produto.\n");
     }else if(preco3 < preco2 && preco3 < preco1){
-        printf("Compre o terceiro produto.");
+        printf("Compre o terceiro produto.\n");
     }   
+
+    system("PAUSE");
 }

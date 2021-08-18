@@ -11,8 +11,10 @@ main()
     // Processamento
 
     if(valor >= 0){
-        printf("Positivo!");
+        printf("Positivo!\n");
     }else{
-        printf("Negativo!");
+        printf("Negativo!\n");
     }
+
+    system("PAUSE");
 }

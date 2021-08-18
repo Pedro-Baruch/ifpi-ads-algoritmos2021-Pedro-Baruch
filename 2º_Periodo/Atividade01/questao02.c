@@ -15,5 +15,7 @@ main()
     min_final = (hrs * 60) + min;
 
     // Saída
-    printf("Equivale a %0.0f minutos", min_final);
+    printf("Equivale a %0.0f minutos\n", min_final);
+
+    system("PAUSE");
 }
