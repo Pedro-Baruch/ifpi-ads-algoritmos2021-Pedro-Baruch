@@ -17,11 +17,9 @@ main ()
 
     if(preco1 < preco2 && preco1 < preco3){
         printf("Compre o primeiro produto.");
-    }
-    if(preco2 < preco3 && preco2 < preco1){
+    }else if(preco2 < preco3 && preco2 < preco1){
         printf("Compre o segundo produto.");
-    }
-    if(preco3 < preco2 && preco3 < preco1){
+    }else if(preco3 < preco2 && preco3 < preco1){
         printf("Compre o terceiro produto.");
     }   
 }

@@ -13,15 +13,13 @@ main()
     printf("numero 3: ");
     scanf("%f", &num3);
 
-    // Processamento
+    // Processamento e Saída
     
     if(num1 > num2 && num1 > num3){
         printf("O numero 1 eh o maior com valor: %f",num1);
-    }
-    if(num2 > num1 && num2 > num3){
+    }else if(num2 > num1 && num2 > num3){
         printf("O numero 2 eh o maior com valor: %f",num2);
-    }
-    if(num3 > num2 && num3 > num1){
+    }else if(num3 > num2 && num3 > num1){
         printf("O numero 3 eh o maior com valor: %f",num3);
     }
     

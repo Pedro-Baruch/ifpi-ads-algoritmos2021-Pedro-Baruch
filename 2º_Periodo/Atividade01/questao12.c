@@ -12,7 +12,7 @@ main()
     scanf("%i", &mes1);
     printf("Primeiro ano: ");
     scanf("%i", &ano1);
-    printf("--------------------------");
+    printf("--------------------------\n");
     printf("Segundo dia: ");
     scanf("%i", &dia2);
     printf("Segundo mes: ");
@@ -20,5 +20,26 @@ main()
     printf("Segundo ano: ");
     scanf("%i", &ano2);
 
-    // Processamento
+    // Processamento e Saída
+    
+    if(ano1 > ano2){
+        printf("Primeira data eh mais recente!");
+    }else if(ano2 > ano1){
+        printf("Segunda data eh mais recente!");
+    }else if(ano1 == ano2){
+        if(mes1 > mes2){
+            printf("Primeira data eh mais recente!");
+        }else if(mes2 > mes1){
+            printf("Segunda data eh mais recente!");
+        }else if(mes1 == mes2){
+            if(dia1 > dia2){
+                printf("Primeira data eh mais recente!");
+            }else if(dia2 > dia1){
+                printf("Segunda data eh mais recente!");
+            }else if(dia1 == dia2){
+                printf("As datas são iguais!");
+            }
+        }
+    }
+
 }
